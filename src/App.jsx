@@ -13,7 +13,7 @@ function App2() {
 
   return (
     <>
-     <Header></Header>
+     {/* <Header></Header> */}
     {/* <div className='content flex'>
       <Sidebar></Sidebar>
       <Main>
