@@ -37,7 +37,7 @@ const PRIORITY_ICONS = {
 
 // Define the desired order for priority and status groups
 const PRIORITY_ORDER = ['No priority', 'Urgent', 'High', 'Medium', 'Low'];
-const STATUS_ORDER = ['Backlog', 'Todo', 'In Progress', 'Done', 'Canceled'];
+const STATUS_ORDER = ['Backlog', 'Todo', 'In progress', 'Done', 'Canceled'];
 
 const KanbanBoard = () => {
   const [groupBy, setGroupBy] = useState(localStorage.getItem('groupBy') || 'status');
